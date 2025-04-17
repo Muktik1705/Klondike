@@ -1,0 +1,1 @@
+This is a Solitaire card game built in C++ using [SFML](https://www.sfml-dev.org/). It applies object-oriented design principles and leverages graphical components from SFML (e.g., `sf::RenderWindow`, `sf::Sprite`, `sf::Texture`, `sf::Event`) to provide an interactive Solitaire gameplay experience with smooth animations and user interaction.
