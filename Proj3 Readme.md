@@ -59,7 +59,7 @@ std::vector | Used extensively for dynamic arrays of Card* objects in piles like
    this was very improtant as this is what enebles for it to move multiple cards at once. We first transphur each card that needs to be transphured to a stack, and the temporary empty the stack in the target location. 
 the main reason for using this is to coordinate the start and end point, which requres a vector(or an array).
 
-std::stack | Employed to manage undo actions and temporary card movements (where LIFO behavior is needed).  |  mentioned in vector.
+std::stack | Employed to manage temporary card movements (where LIFO behavior is needed). this code doesn't have undo options, otherwise it would have beed used therre as well.  |  mentioned in vector.
 
 std::deque | Used in some piles for flexible push/pop from both ends, especially for card recycling.  |  the input dech that is on the top right of the game. 
 
@@ -106,7 +106,7 @@ cmake . -B build
 
 cmake --build build
 ```
-Usage
+To Run
 ```
 ./Klondike
 ```
