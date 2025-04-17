@@ -1,4 +1,4 @@
-✨Solitaire
+🌀Solitaire
 
 Solitaire (Klondike) is a classic single-player card game where the goal is to move all cards to four suit-based foundations in ascending order.
 This is a Solitaire card game built in C++ using SFML. 
@@ -23,7 +23,7 @@ Win by moving all cards to the foundations!
 
 
 
-📂 Project Structure & File Roles
+🗃️ Project Structure & File Roles
 
 src/	                          Contains the source code files implementing the game's logic and functionality.
 resource/	          Holds graphical assets and other resources used in the game.
@@ -31,7 +31,7 @@ CMakeLists.txt	  Configuration file for building the project using CMake.
 README.md	          Provides an overview and instructions for the project.
 .gitignore	          Specifies files and directories to be ignored by Git.
 
-📂 src/ Directory Breakdown
+📊 src/ Directory Breakdown
 
 File | Description
 Card.cpp / Card.h | Defines the Card class — manages card properties (rank, suit, face-up state) and rendering via SFML.
@@ -51,7 +51,7 @@ main.cpp | Entry point of the program — initializes the game window and starts
 main.cpp	Entry point of the program — initializes the game window and starts the game loop.
 
 
-🧱 Data Structures Used
+🧬 Data Structures Used
 Data Structure | Description / Usage
 
 std::vector | Used extensively for dynamic arrays of Card* objects in piles like tableau, foundation, and stock.  |  
@@ -77,7 +77,7 @@ std::map or std::unordered_map | (Optional/inferred) — may be used for texture
 
 
 
-✨2. Download the Project
+🌐 Download the Project
 
 To build the game, you will need to install the SFML library:
 
