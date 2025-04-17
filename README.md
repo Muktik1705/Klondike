@@ -38,13 +38,17 @@ Card.cpp / Card.h | Defines the Card class — manages card properties (rank, su
 
 Deck.cpp / Deck.h | Implements the card deck — handles creation, shuffling, and card distribution logic.
 
+Sound.cpp / Sound.hpp | manages the sound effects.
+
 Game.cpp / Game.h | Core game controller — manages the logic, user input, event handling, and rendering loop.
+
+KlondikeEvents.cpp | Handles game events and interactions.
 
 Pile.cpp / Pile.h | Implements a generic pile of cards — base for tableau, foundation, and stock piles.
 
 Stock.cpp / Stock.h | Specialized pile for the stock (draw pile) behavior — includes drawing and flipping mechanics.
 
-Tableau.cpp / Tableau.h | Manages the tableau (main play area) — handles rules for moving and revealing cards.
+Tas.cpp / Tas.h | Manages the tableau (main play area) — handles rules for moving and revealing cards.
 
 main.cpp | Entry point of the program — initializes the game window and starts the game loop.
 
