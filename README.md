@@ -48,8 +48,6 @@ Tableau.cpp / Tableau.h | Manages the tableau (main play area) — handles rules
 
 main.cpp | Entry point of the program — initializes the game window and starts the game loop.
 
-main.cpp	Entry point of the program — initializes the game window and starts the game loop.
-
 
 🧬 Data Structures Used
 Data Structure | Description / Usage
