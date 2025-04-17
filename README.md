@@ -74,6 +74,21 @@ struct / class | Custom data structures like Card, Pile, Deck, Game, and Tableau
 std::map or std::unordered_map | (Optional/inferred) — may be used for texture or resource management, though not prominent in core gameplay.
 
 
+📈 Improvement Ideas 
+
+1) Make the controls drag and drop.
+
+2) Include the option for undo.
+
+3) An extention where if we get a situatin when We reach a state that is Impossible to advance with, the game notifies us with game over and terminates the game.
+
+4) The option to get hints.
+
+5) Auto solve.
+
+6) Score system and timer.
+
+7) A better animation when you win the game. 
 
 
 
