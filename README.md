@@ -54,8 +54,8 @@ Data Structure | Description / Usage
 
 std::vector | Used extensively for dynamic arrays of Card* objects in piles like tableau, foundation, and stock.  |  
    
-   this was very improtant as this is what enebles for it to move multiple cards at once. We first transphur each card that needs to be transphured to a stack, and the temporary empty the stack in the target location. 
-the main reason for using this is to coordinate the start and end point, which requres a vector(or an array).
+   this was very improtant as this is what enables for it to move multiple cards at once. We first transfers each card that needs to be transfered to a stack, and empty the temporary stack in the target location. 
+the main reason for using this is because the location from where you pick up the cards might vary(in the same pile), To nevigate through this we need a vector(or an array).
 
 std::stack | Employed to manage temporary card movements (where LIFO behavior is needed). this code doesn't have undo options, otherwise it would have beed used therre as well.  |  mentioned in vector.
 
